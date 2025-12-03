@@ -59,7 +59,7 @@ def upsert_group(name: str, tickers: Iterable[str]) -> None:
         raise ValueError("Group name cannot be empty.")
     tickers_list = [t.strip() for t in tickers if t and t.strip()]
     if not tickers_list:
-        raise ValueError("Ticker group must contain at least one ticker")
+        raise ValueError("Ticker group must contain at least one ticker.")
 
     existing = load_groups()
     normalised_target = _normalise_name(trimmed_name)
