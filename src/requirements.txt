@@ -1,0 +1,9 @@
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+plotly==5.23.0
+PyPDF2==3.0.1
+statsmodels==0.14.2
+openai==1.35.13
+pyodbc==5.1.0
